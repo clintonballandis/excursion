@@ -1,3 +1,48 @@
+html {
+  font-family: verdana;
+  text-align: center;
+  font-weight: normal;
+}
+
 body {
-  background-color: white;
+  background-color: black;
+}
+
+.header--main {
+  color: white;
+  font-family: verdana;
+  font-size: 50px;
+}
+
+.header--secondary {
+  color: white;
+  font-size: 42px;
+}
+
+.link--cta {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.header--sub {
+  color: gray;
+  font-size: 21px;
+}
+
+.footer {
+  text-align: right;
+  color: gray;
+  font-size: 21px;
 }
